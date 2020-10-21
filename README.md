@@ -4,6 +4,10 @@ This gist makes us of `react-native-image-pan-zoom` && `react-native-lightbox` t
 
 Click on image will open LightBox modal once open will allow zooming and panning and swipe down to close.
 
+### Install
+
+`npm install react-native-image-lightbox-zoom-pan --save`
+
 ### Example
 
 ```
