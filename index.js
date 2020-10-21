@@ -10,6 +10,8 @@ export default ({
   height = 300,
   swipeDownThreshold = 20,
   enableSwipeDown = true,
+  lightBoxProps = {},
+  imageZoomProps = {},
 }) => {
   const [open, setOpen] = useState(false);
   const lightBox = useRef(null);
@@ -21,6 +23,7 @@ export default ({
       navigator={navigator}
       onOpen={() => setOpen(true)}
       onClose={() => setOpen(false)}
+      {...lightBoxProps}
     >
       <ImageZoom
         enableSwipeDown={enableSwipeDown}
@@ -32,6 +35,7 @@ export default ({
         cropHeight={finalHeight}
         imageWidth={width}
         imageHeight={finalHeight}
+        {...imageZoomProps}
       >
         <Image
           resizeMode={open ? "contain" : undefined}

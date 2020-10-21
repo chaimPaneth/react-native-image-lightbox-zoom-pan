@@ -22,5 +22,7 @@ import Lightbox from 'react-native-image-lightbox-zoom-pan';
     height = 300,
     swipeDownThreshold = 20,
     enableSwipeDown = true,
+    lightBoxProps = {}, // All available props from react-native-lightbox
+    imageZoomProps = {}, // All available props from react-native-image-pan-zoom
 }
 ```

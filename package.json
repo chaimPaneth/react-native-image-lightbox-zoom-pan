@@ -1,18 +1,33 @@
 {
   "name": "react-native-image-lightbox-zoom-pan",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Complete Image Viewer with featuring lightbox, zoom & pan capabilities and swipe down to close.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "react-native",
+    "Image",
+    "Viewer",
+    "Zoom",
+    "Pan",
+    "LightBox"
+  ],
   "author": "Chaim Paneth",
   "license": "ISC",
-  "dependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaimPaneth/react-native-image-lightbox-zoom-pan.git"
+  },
+  "peerDependencies": {
     "react": "16.11.0",
     "react-native": "0.62.2",
     "react-native-image-pan-zoom": "2.1.12",
     "react-native-lightbox": "git+https://github.com/chaimPaneth/react-native-lightbox.git"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/chaimPaneth/react-native-image-lightbox-zoom-pan/issues"
+  },
+  "homepage": "https://github.com/chaimPaneth/react-native-image-lightbox-zoom-pan#readme"
 }
